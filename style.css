@@ -85,7 +85,6 @@ header {
 
 header>nav {
     padding: 1rem 0;
-    /* in questo caso imposto la height manualmente, solo per poter dare il giusto padding al main */
     height: 6rem;
 }
 
@@ -119,8 +118,7 @@ img{
 
 
 .container{
-    background: red;
-    padding: 7rem;
+    background: white;
     align-items: center;
     display: flex;
     margin: 10px;
@@ -128,52 +126,72 @@ img{
 }
 
 
-
-.cuore{
-    position: absolute;
-    bottom: 0pxl;
-    width: 100%;
-
-
-
-
+.item{
+ text-align-last: left;
 }
 
-
-
+.cuore{
+    height: 29rem;
+}
 
 .discount{
     width: 40px;
     height: 20px;
-    background-color: red;
+    background-color:red;
     position: absolute;
     top: 0px;
     right: 0px;
-    text-align: center;
-
-
-}
-.discount2{
-    width: 40px;
-    height: 20px;
-    background-color: red;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    text-align: center;
-
-
-}.discount3{
-    width: 40px;
-    height: 20px;
-    background-color: red;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    text-align: center;
-
-
 }
 
 
 
+.item:hover .cuore{
+    display: block;
+}
+
+
+
+.container-two{
+    background: white;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+footer{
+    background-color: #ff6d0c;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.boxed-black{
+    width: 43%;
+
+
+
+
+}
+.nav-black {
+    padding: 3rem;
+}
+
+.nav-nero {
+    width: 43%;
+}
+
+
+.text-black{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+    
