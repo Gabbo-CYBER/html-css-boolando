@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.2rem;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxed {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.debug .footer-left,
+.debug .footer-right,
+.debug .footer-right-child,
+.debug .footer-bottom a {
+    border: dashed 2px white;
+}
+
+.debug footer,
+.debug .footer-left,
+.debug .footer-right,
+.debug .footer-right-child {
+    min-height: 10rem;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/************* HEADER **************/
+header {
+    background-color: #ff6d0c;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header>nav {
+    padding: 1rem 0;
+    /* in questo caso imposto la height manualmente, solo per poter dare il giusto padding al main */
+    height: 6rem;
+}
+
+img{
+    width: 20rem;
+    margin: 23px;
+}
+
+
+
+.nav-column {
+    padding: 1rem;
+}
+
+.nav-column-small {
+    width: 43%;
+}
+
+.nav-column-big {
+    background-image: url(./img/boolean-logo.png);
+    background-size: cover;
+    width: 12%;
+    text-align: center;
+}
+
+.nav-column-big a {
+    margin: 0 0.5rem;
+    color: white;
+}
+
+
+
+.container{
+    background: red;
+    padding: 7rem;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+.cuore{
+    position: absolute;
+    bottom: 0pxl;
+    width: 100%;
+
+
+
+
+}
+
+
+
+
+.discount{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+
+
+}
+.discount2{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+
+
+}.discount3{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+
+
+}
+
+
+
