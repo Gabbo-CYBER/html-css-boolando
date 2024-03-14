@@ -1,3 +1,4 @@
+/* reset */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -29,7 +30,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 .boxed {
@@ -95,19 +95,21 @@ img{
 
 
 
-.nav-column {
+.nav-column2 {
     padding: 1rem;
 }
 
 .nav-column-small {
     width: 43%;
+    align-self: center;
 }
 
 .nav-column-big {
     background-image: url(./img/boolean-logo.png);
     background-size: cover;
-    width: 12%;
+    width: 19%;
     text-align: center;
+    height: 73%;
 }
 
 .nav-column-big a {
@@ -117,62 +119,17 @@ img{
 
 
 
-.container{
-    background: white;
-    align-items: center;
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-}
-
-
-.item{
- text-align-last: left;
-}
-
-.cuore{
-    height: 29rem;
-}
-
-.discount{
-    width: 40px;
-    height: 20px;
-    background-color:red;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-
-
-.item:hover .cuore{
-    display: block;
-}
-
-
-
-.container-two{
-    background: white;
-    align-items: center;
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-}
-
 
 footer{
-    background-color: #ff6d0c;
+    background-color:black;
     top: 0;
     width: 100%;
     z-index: 999;
+    color: white;
 }
 
 .boxed-black{
     width: 43%;
-
-
-
-
 }
 .nav-black {
     padding: 3rem;
@@ -194,4 +151,153 @@ footer{
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  main{
+    margin: 30px auto;
+    width: 55%;
+  }
+  
+  /* proprietà img */
+  
+  .box {
+    float: left;
+    width:calc(100% / 3 - 20px);
+    margin: 0 10px;
+  }
+  
+  .box .img-item {
+    width:100%;
+  }
+  
+  .box .img-front{
+      display: block;
+  }
+  
+  .img-front{
+    display: block;
+  }
+  
+  .box .img-back {
+    display: none;
+  }
+  
+  .img-container:hover{
+    cursor: pointer;
+  }
+  
+  .img-container:hover .img-front{
+    display: none;
+  }
+  
+  .img-container:hover .img-back{
+    display: block;
+  }
+  
+  .img-container{
+    position: relative;
+    width: 100%;
+  }
+  
+  .heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    background-color: white;
+    padding: 5px 7px;
+    line-height: 15px;
+    text-align: center;
+  }
+  
+  .discount{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: #EB0030;
+  }
+  
+  .green, .green2{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    background-color: #00875A;
+  }
+  
+  .green2{
+    left: 0;
+  }
+  
+  .discount, .green, .green2{
+    font-size: 8px;
+    padding: 0 3px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  /* proprietà testi */
+  
+  .caption{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .block span{
+    display: block;
+  }
+  
+  .title{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .red-price{
+    color: red;
+    font-weight: bold;
+  }
+  
+  .price{
+    text-decoration: line-through;
+  }
+  
+  .brand, .red-price, .price{
+    font-size: 10px;
+  }
